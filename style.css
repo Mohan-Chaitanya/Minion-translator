@@ -5,5 +5,11 @@ body {
 
 textarea {
 	height: 4rem;
-	width: 40%;
+	width: 50%;
+}
+
+#output {
+	border: 1px solid black;
+	width: 50%;
+	height: 4rem;
 }
