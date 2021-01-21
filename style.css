@@ -1,0 +1,9 @@
+body {
+	margin-left: 25%;
+	justify-content: center;
+}
+
+textarea {
+	height: 4rem;
+	width: 40%;
+}
