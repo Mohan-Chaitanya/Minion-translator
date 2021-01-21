@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
 body {
-	margin-left: 25%;
 	justify-content: center;
 	background-color: black;
 	color: white;
+	font-family: "Handlee", cursive;
+	font-size: larger;
 }
 
 textarea {
@@ -10,12 +13,14 @@ textarea {
 	width: 50%;
 	background-color: black;
 	color: white;
+	border-radius: 5px;
 }
 
 #output {
 	border: 1px solid rgb(255, 255, 255);
 	width: 50%;
 	height: 4rem;
+	border-radius: 5px;
 }
 
 .humanLanguage {
@@ -41,4 +46,14 @@ textarea {
 	width: 5rem;
 	border: none;
 	border-radius: 7px;
+}
+
+.heading {
+	height: 3rem;
+	margin: 0;
+	text-align: center;
+}
+
+.body {
+	margin-left: 25%;
 }
